@@ -27,4 +27,3 @@ func NewRootCmd() *cobra.Command {
 	cmd.AddCommand(newReposCmd(), newPRsCmd(), newActivityCmd())
 	return cmd
 }
-
