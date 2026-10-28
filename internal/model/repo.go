@@ -12,4 +12,3 @@ type Repo struct {
 	LastPush time.Time
 	URL      string
 }
-

@@ -17,4 +17,3 @@ func SortByStars(repos []model.Repo) {
 		return cmp.Compare(a.Name, b.Name)
 	})
 }
-
